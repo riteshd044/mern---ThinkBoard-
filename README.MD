@@ -1,6 +1,6 @@
 # 📝 ThinkBoard - MERN Stack Note Taking App
 
-![Demo App](/frontend/public/Screenshot%202026-02-13%20at%2010.00.38 AM.png)
+![Demo App](/frontend/public/Screenshot 2026-02-13 at 10.00.38 AM.png)
 
 A modern, fully-functional note-taking web application built with the MERN stack. Create, manage, and organize your thoughts with a beautiful responsive interface. Features user authentication, rate limiting, and a clean REST API.
 
@@ -123,64 +123,6 @@ npm run dev
 \`\`\`
 
 The frontend will start at `http://localhost:5173`
-
----
-
-## 📁 Project Structure
-
-\`\`\`
-ThinkBoard/
-├── backend/
-│   ├── src/
-│   │   ├── server.js                 # Express server entry point
-│   │   ├── config/
-│   │   │   ├── db.js                 # MongoDB connection
-│   │   │   └── upstash.js            # Redis configuration
-│   │   ├── controllers/
-│   │   │   ├── auth.controller.js    # Auth logic (signup, login)
-│   │   │   └── notesControllers.js   # Note CRUD operations
-│   │   ├── middleware/
-│   │   │   ├── auth.middleware.js    # JWT verification
-│   │   │   └── rateLimiter.js        # Rate limiting middleware
-│   │   ├── models/
-│   │   │   ├── User.js               # User schema
-│   │   │   └── Note.js               # Note schema
-│   │   ├── routes/
-│   │   │   ├── authRoutes.js         # Auth endpoints
-│   │   │   └── notesRoutes.js        # Note endpoints
-│   │   └── lib/
-│   │       └── utils.js              # Utility functions
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── main.jsx                  # React entry point
-│   │   ├── App.jsx                   # Main component
-│   │   ├── components/
-│   │   │   ├── AuthShell.jsx         # Auth wrapper component
-│   │   │   ├── Navbar.jsx            # Navigation bar
-│   │   │   ├── NoteCard.jsx          # Individual note card
-│   │   │   ├── NotesNotFound.jsx     # Empty state component
-│   │   │   ├── RateLimitedUI.jsx     # Rate limit feedback
-│   │   │   └── RouteLoader.jsx       # Loading state
-│   │   ├── pages/
-│   │   │   ├── HomePage.jsx          # Dashboard with all notes
-│   │   │   ├── LoginPage.jsx         # User login
-│   │   │   ├── SignupPage.jsx        # User registration
-│   │   │   ├── CreatePage.jsx        # Create new note
-│   │   │   └── NoteDetailPage.jsx    # View & edit note
-│   │   ├── store/
-│   │   │   └── useAuthStore.js       # Zustand auth store
-│   │   ├── lib/
-│   │   │   ├── axios.js              # Axios configuration
-│   │   │   └── utils.js              # Helper functions
-│   │   └── styles/                   # CSS files
-│   ├── vite.config.js                # Vite configuration
-│   ├── tailwind.config.js            # Tailwind setup
-│   └── package.json
-│
-└── README.md
-\`\`\`
 
 ---
 
