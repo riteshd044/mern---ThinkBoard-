@@ -1,8 +1,5 @@
 # 📝 ThinkBoard - MERN Stack Note Taking App
 
-![Demo App](/frontend/public/Screenshot%202026-02-13%20at%2010.00.38 AM.png)
-
-
 A modern, fully-functional note-taking web application built with the MERN stack. Create, manage, and organize your thoughts with a beautiful responsive interface. Features user authentication, rate limiting, and a clean REST API.
 
 ## ✨ Features
